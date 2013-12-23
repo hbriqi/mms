@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.examples.apps.myapp" version="0.0.1">
+				<!-- ***				  WARNING			     *** -->
+				<!-- ***		This is an automatically generated document.	     *** -->
+				<!-- *** Do not edit it: your changes would be automatically overwritten *** -->
+				<name>Example: My Application</name>
+				<description>Description of My Application</description>
+				<author href="http://www.example.com">An Example Company</author>
+				<!-- Platforms -->
+				<!-- Features -->
+				<preference name="permissions" value="none" />
+				<!-- Preferences -->
+				<preference name="phonegap-version" value="3.0.0" />
+				<preference name="orientation" value="both" />
+				<preference name="target-device" value="universal" />
+				<preference name="fullscreen" value="false" />
+				<preference name="android-installLocation" value="internalOnly" />
+				<preference name="android-minSdkVersion" value="7" />
+				<preference name="android-maxSdkVersion" value="18" />
+				<preference name="android-windowSoftInputMode" value="stateVisible" />
+				<preference name="splash-screen-duration" value="5000" />
+				<preference name="load-url-timeout" value="20000" />
+				<preference name="webviewbounce" value="true" />
+				<preference name="prerendered-icon" value="false" />
+				<preference name="ios-statusbarstyle" value="black-opaque" />
+				<preference name="detect-data-types" value="true" />
+				<preference name="exit-on-suspend" value="false" />
+				<preference name="show-splash-screen-spinner" value="false" />
+				<preference name="auto-hide-splash-screen" value="true" />
+				<preference name="disable-cursor" value="false" />
+				<!-- Plugins -->
+				<!-- Define app icon for each platform -->
+				<icon src="icon.png" role="default" width="32" height="32" />
+				<icon src="icon.png" role="default" gap:platform="android" gap:density="mdpi" />
+				<icon src="icon.png" role="default" gap:platform="ios" width="32" height="32" />
+				<icon src="icon.png" role="default" gap:platform="winphone" width="32" height="32" />
+				<icon src="icon.png" role="default" gap:platform="blackberry" width="32" height="32" />
+				<icon src="icon.png" role="default" gap:platform="webos" width="32" height="32" />
+				<!-- Define app splash screen for each platform -->
+				<gap:splash src="icon.png" width="60" height="60" />
+				<gap:splash src="icon.png" gap:platform="android" gap:density="mdpi" />
+				<gap:splash src="icon.png" gap:platform="ios" width="60" height="60" />
+				<gap:splash src="icon.png" gap:platform="winphone" width="60" height="60" />
+				<gap:splash src="icon.png" gap:platform="blackberry" width="60" height="60" />
+				<gap:splash src="icon.png" gap:platform="webos" width="60" height="60" />
+				<!-- Access external websites ressources -->
+				<access origin="http://127.0.0.1" />
+</widget>
